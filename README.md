@@ -13,3 +13,6 @@ A description of the data, variables and the performed actions of run_analysis.R
 
 ##### summaryData.txt
 The resulting dataset
+
+## Instructions
+The script run_analysis.R will automatically download an exctract the data if not available and produce a tidy dataset exported as summaryData.txt
