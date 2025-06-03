@@ -15,7 +15,7 @@ A description of the data, variables and the performed actions of run_analysis.R
 The resulting dataset
 
 ## Instructions
-This script requiresboth ```dplyr``` and ```data.table``` packages.
+This script requires both ```dplyr``` and ```data.table``` packages.
 
 To run the script simply source run_analysis.R, it will automatically download an exctract the data if not available and produce a tidy dataset exported as summaryData.txt
 
