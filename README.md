@@ -18,3 +18,6 @@ The resulting dataset
 Run run_analysis.R, it will automatically download an exctract the data if not available and produce a tidy dataset exported as summaryData.txt
 
     source("run_analysis.R")
+
+### Dependencies
+dplyr and data.table
