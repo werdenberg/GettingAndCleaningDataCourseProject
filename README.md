@@ -20,5 +20,4 @@ Run run_analysis.R, it will automatically download an exctract the data if not a
     source("run_analysis.R")
 
 ### Dependencies
-    dplyr
-    data.table
+Requires the ```dplyr``` and ```data.table``` packages
