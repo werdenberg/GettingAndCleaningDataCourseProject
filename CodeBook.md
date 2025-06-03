@@ -9,9 +9,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The resulting Dataset contains the following variables
 
 ##### SubjectID
-A unique identifier of the subject
+Integer, A unique identifier of the subject
 ##### Activity
-A descriptive label for each activity. Can be
+Factor, A descriptive label for each activity. Can be
 - WALKING
 - WALKING_UPSTAIRS
 - WALKING_DOWNSTAIRS
@@ -19,6 +19,7 @@ A descriptive label for each activity. Can be
 - STANDING
 - LAYING
 ##### Gyroscope and Accereometer measurements
+Numeric, mean and standard deviation for each feature
 For information on the accelerometer and gyroscope measurements please refer to the README.txt as well as features_info.txt inside the downloaded dataset as well as its online documentation.
 
 ## Transformations
