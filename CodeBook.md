@@ -19,7 +19,8 @@ Factor, A descriptive label for each activity. Can be
 - STANDING
 - LAYING
 ##### Gyroscope and Accereometer measurements
-Numeric, mean and standard deviation for each feature.
+Numeric, mean and standard deviation for each feature. XYZ indicates the axis.
+
 For information on the accelerometer and gyroscope measurements please refer to the README.txt as well as features_info.txt inside the downloaded dataset as well as its online documentation.
 
 ## Transformations
