@@ -6,7 +6,7 @@ This repository contains scripts for the Coursera Getting and Cleaning Data cour
 Information about the repository and its contained files
 
 ##### run_analysis.R
-A R script to fetch, merge and summarise data from a gyroscope and accelerometer study
+A R script to fetch, merge and summarise gyroscope and accelerometer data from a study
 
 ##### CodeBook.md
 A description of the data, variables and the performed actions of run_analysis.R
