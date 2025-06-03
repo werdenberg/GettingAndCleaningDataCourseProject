@@ -15,4 +15,6 @@ A description of the data, variables and the performed actions of run_analysis.R
 The resulting dataset
 
 ## Instructions
-Just run run_analysis.R, it will automatically download an exctract the data if not available and produce a tidy dataset exported as summaryData.txt
+Run run_analysis.R, it will automatically download an exctract the data if not available and produce a tidy dataset exported as summaryData.txt
+
+    source("run_analysis.R")
