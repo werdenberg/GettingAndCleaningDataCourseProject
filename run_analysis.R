@@ -15,8 +15,10 @@ library(dplyr)
 library(data.table)
 
 URL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(URL, destfile = "Dataset.zip", method = "curl")
-unzip("Dataset.zip")
+if(!dir.exists("./UCI HAR Dataset")){
+	download.file(URL, destfile = "Dataset.zip", method = "curl")
+	unzip("Dataset.zip")
+}
 
 # Load ActivityLabels and Features
 activityLabels <- fread("./UCI HAR Dataset/activity_labels.txt",
