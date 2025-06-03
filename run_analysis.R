@@ -64,4 +64,5 @@ dataSummary <- mergedData %>%
 	summarise_all(mean)
 
 # Write new file
-fwrite(dataSummary, file="summaryData.txt")
+#fwrite(dataSummary, file="summaryData.txt")
+write.table(dataSummary, file="summaryData.txt", row.name=FALSE)
